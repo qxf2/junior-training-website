@@ -1,1 +1,8 @@
 node_modules/
+.env
+cypress.env.json
+cypress.json
+log/
+results/
+token.json
+junior-training-website.json
