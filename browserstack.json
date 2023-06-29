@@ -1,0 +1,46 @@
+{
+    "auth": {
+        "username": "Add the browserstack username",
+        "access_key": "Add the browserstack access key"
+    },
+    "browsers": [
+
+        {
+            "browser": "firefox",
+            "os": "Windows 10",
+            "versions": [
+               "latest"
+            ]
+        },
+        {
+            "browser": "edge",
+            "os": "Windows 10",
+            "versions": [
+                "latest"
+            ]
+        }
+
+
+    ],
+    "run_settings": {
+        "cypress_config_file": "./cypress.json",
+        "project_name": "Junior QA training",
+        "build_name": "Apply form",
+        "exclude": [],
+        "parallels": "1",
+        "npm_dependencies": {
+            "@reportportal/agent-js-cypress": "^5.0.2",
+            "gmail-tester": "^1.3.3"
+          }
+
+
+    },
+    "connection_settings": {
+        "local": false,
+        "local_identifier": null,
+        "local_mode": null,
+        "local_config_file": null,
+        "plugins_file":true
+    },
+    "disable_usage_reporting": false
+}
